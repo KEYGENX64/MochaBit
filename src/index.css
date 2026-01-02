@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'DoranFa';
+  src: url('assets/fonts/woff2/DoranFaNum-Regular.woff2') format('woff2'),
+  url('assets/fonts/woff/DoranFaNum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DoranBoldFa';
+  src: url('assets/fonts/woff2/DoranFaNum-Bold.woff2') format('woff2'),
+  url('assets/fonts/woff/DoranFaNum-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Doran';
+  src: url('assets/fonts/woff2/Doran-Regular.woff2') format('woff2'),
+  url('assets/fonts/woff/Doran-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DoranBold';
+  src: url('assets/fonts/woff2/Doran-Bold.woff2') format('woff2'),
+  url('assets/fonts/woff/Doran-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme{
+  --font-display: "Doran", "sans-serif";
+  --font-display-bold: "DoranBold", "sans-serif";
+  --font-display-fa: "Doran", "sans-serif";
+  --font-display-bold-fa: "DoranBold", "sans-serif";
+
+  --color-brown-dark: #462B19 ;
+  --color-brown-light: #9C6D4D ;
+  --color-brown-primary: #B5815B ;
+  --color-yellow: #FFC300 ;
+  --color-light-bg: #FFFEF9 ;
+  --color-gray-dark: #504F4F ;
+
+  --container-card-size: 370px ;
+}
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+/* Active category */
+.category-active { box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+

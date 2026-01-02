@@ -1,0 +1,73 @@
+{
+  "products": [
+    {
+      "id": "mocha-lamiz",
+      "name": "موکا کلاسیک",
+      "description": "اسپرسو، شیر داغ، شکلات تلخ و خامه",
+      "price": 180,
+      "oldPrice": 200,
+      "categories": ["hot", "popular"],
+      "rating": 5,
+      "ratingCount": 5,
+      "image": "../src/assets/Images/products/MOCHA-LAMIZ-removebg-preview.png",
+      "featured": ["bestseller", "favorite"]
+    },
+    {
+      "id": "latte-vanilla",
+      "name": "لاته وانیلی",
+      "description": "شیر فوم‌دار با وانیل",
+      "price": 170,
+      "oldPrice": 170,
+      "categories": ["hot", "popular"],
+      "rating": 4,
+      "ratingCount": 4,
+      "image": "../src/assets/Images/products/LATTE-LAMIZ-removebg-preview.png",
+      "featured": ["bestseller", "favorite"]
+    },
+    {
+      "id": "cappuccino-italian",
+      "name": "کاپوچینو ایتالیایی",
+      "description": "فوم غلیظ و اسپرسو",
+      "price": 150,
+      "oldPrice": 170,
+      "categories": ["hot", "popular"],
+      "rating": 5,
+      "ratingCount": 5,
+      "image": "../src/assets/Images/products/CAPPUCCINO-LAMIZ-removebg-preview.png",
+      "featured": ["bestseller", "favorite"]
+    },
+    {
+      "id": "americano",
+      "name": "آمریکانو",
+      "description": "قهوه تلخ و سبک",
+      "price": 180,
+      "categories": ["hot"],
+      "rating": 5,
+      "ratingCount": 5,
+      "image": "../src/assets/Images/products/AMERICANO-LAMIZ-removebg-preview.png",
+      "featured": []
+    },
+    {
+      "id": "mochachillo",
+      "name": "آیس موکا",
+      "description": "موکا سرد و شکلاتی",
+      "price": 210,
+      "categories": ["cold"],
+      "rating": 5,
+      "ratingCount": 5,
+      "image": "../src/assets/Images/products/MOCHACHILLO-LAMIZ-removebg-preview.png",
+      "featured": []
+    },
+    {
+      "id": "chai-masala",
+      "name": "چای ماسالا",
+      "description": "چای ادویه‌ای گرم",
+      "price": 140,
+      "categories": ["hot", "dessert"],
+      "rating": 5,
+      "ratingCount": 5,
+      "image": "../src/assets/Images/products/CHAI-LATTE-LAMIZ-removebg-preview.png",
+      "featured": []
+    }
+  ]
+}
